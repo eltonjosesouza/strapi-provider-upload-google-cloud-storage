@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/getjus/strapi-provider-upload-google-cloud-storage.git"
+    "url": "git+https://github.com/eltonjosesouza/strapi-provider-upload-google-cloud-storage.git"
   },
   "keywords": [
     "strapi",
@@ -36,9 +36,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/getjus/strapi-provider-upload-google-cloud-storage/issues"
+    "url": "https://github.com/eltonjosesouza/strapi-provider-upload-google-cloud-storage/issues"
   },
-  "homepage": "https://github.com/getjus/strapi-provider-upload-google-cloud-storage#readme",
+  "homepage": "https://github.com/eltonjosesouza/strapi-provider-upload-google-cloud-storage.git#readme",
   "prettier": "prettier-config-standard",
   "dependencies": {
     "@google-cloud/storage": "^5.0.0"

@@ -4,19 +4,13 @@
 
 Inspired from https://www.npmjs.com/package/strapi-provider-upload-google-cloud-storage
 
-Except:
-
-- removed bucket autocreate
-- add support for regional bucket
-- add support for Uniform bucket-level access
-
 ## Installation
 
 Install the package from your app root directory
 
 ```
 cd /path/to/strapi/
-npm install @nitra/strapi-provider-upload-google-cloud-storage --save
+npm install @eltonjosesouza/strapi-provider-upload-google-cloud-storage --save
 ```
 
 ## Setting up Google authentification
@@ -27,12 +21,16 @@ npm install @nitra/strapi-provider-upload-google-cloud-storage --save
 3. In the **Service account name** field, enter a name.
 4. From the **Role** list, select **Storage > Storage Object Admin**.
 5. Click **Create**. A JSON file that contains your key downloads to your computer.
+6.  Go to https://cloud.google.com/docs/authentication/getting-started and configure your environment variable
+
+## Create Bucket on Google Cloud Storage
+1. See https://cloud.google.com/storage/docs/creating-buckets
 
 ## Setting up Strapi upload configuration
 
-1. Copy the full content of the downloaded JSON file
-2. Paste it into the "Service Account JSON" field in Strapi Upload Settings
-3. Set an existing Bucket name
+1. Access your strapi via browser
+2. Go to General->Plugins and click on gear to configure your plugin.
+3. Set bucket-name
 4. Save the configuration
 5. Enjoy !
 
